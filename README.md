@@ -31,7 +31,7 @@ To install dependencies, run the command bellow :
 
 ## Usage
 
-1 - Add all desired domains at "domains_list.txt" file
+1 - Add all desired domains to "domains_list.txt" file
 
 2 - To crawl over all domains, run the command bellow:
 

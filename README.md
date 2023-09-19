@@ -36,7 +36,7 @@ To install dependencies, run the command bellow :
 2 - To crawl over all domains, run the command bellow:
 
 ```bash
-  scrapy crawl whois -o whois.json
+  scrapy crawl whois
 ```
 
 

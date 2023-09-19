@@ -15,6 +15,8 @@ class DomainsSpider(scrapy.Spider):
         "AUTOTHROTTLE_ENABLED": True,
         "AUTOTHROTTLE_DEBUG": True,
         # 'HTTPCACHE_ENABLED': True,
+        "FEED_FORMAT" : "csv",
+        "FEED_URI" : f"{name}.csv",
     }
 
     def start_requests(self):
